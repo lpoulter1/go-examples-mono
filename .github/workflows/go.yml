@@ -21,7 +21,7 @@ jobs:
           go-version: "1.22"
 
       - name: Build
-        run: cd projects/web-server && go build -v ./... -o web-server.bin
+        run: cd projects/web-server && go build -v  -o web-server.bin ./...
 
       - name: Test
         run: go test -v ./...
