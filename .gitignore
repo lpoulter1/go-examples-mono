@@ -1,0 +1,2 @@
+# Ignore all .bin files (you can replace .bin with any other extension you are using for your built files)
+*.bin
